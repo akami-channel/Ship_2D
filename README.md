@@ -25,4 +25,13 @@ Subscribe to my youtube channel too for updates on the game/engine.
 Some of you know I've been working on a game for a while. Yes, that's a proprietary game.
 I'm working on 2 games right now. This one is FOSS = free and open-source software.
 
+If you are watching my livestream on twitch (twitch.tv/akami_channel) here are some of my common aliases:
+
+ga=git add --al
+gc=git commit
+gcd does a git commit and just puts the date and time in for the commit message
+gps=git pull
+copye copies a src dir into the sources of my shipbuilder project
+checke builds the ship_2D project and checks checksums against the ship_2D and ship_2D_dirty repos
+
 I'm putting everything in this proj directory because I have this other repo called shipbuilder that is supposed to build ship_2D. That might be useful, for example, if I want to have extensions that can be added or not at will. The idea is that everything in proj can be examined with a checksum and I can test what shipbuilder builds against the ship_2D checksum. That way I can make automated tests.
