@@ -1,8 +1,7 @@
 
 FOSS Game Project
 
-I am making a game and a game engine in OpenGL using C++ and SDL... or maybe using WebGL bc browser is
-highly accessible.
+I am making a game and a game engine in OpenGL using C++ and SDL... or maybe using WebGL bc browser is highly accessible.
 
 What is SDL?
 a cross-platform library for setting up a window, handling user input, sound, an OpenGL context, etc.
@@ -12,17 +11,14 @@ Basically it's a 3 layer cake:
 1) at the base is a new OpenGL tutorial series I'm making called SDLGL_tuts (need better name) using
 C++ and SDL (my previous one was in C using GLFW, you can find it on YouTube).
 2) The second layer of the cake is an open-source game engine, which I am calling Ship 2D.
-3) Top layer of the cake is a 2D tile-based game, which will take inspiration from Stardew Valley,
-Factorio, Minecraft, etc. It will be online and free so people can join and play together.
+3) Top layer of the cake is a 2D tile-based game, which will take inspiration from Stardew Valley, Factorio, Minecraft, etc. It will be online and free so people can join and play together.
 
 Notes:
 
-There are also projects called "shipbuilder" and "tutbuilder", which build the engine and the tutorial
-series, respectively. For now they are elaborate copy-pasting programs, but I hope they will have a future.
+There are also projects called "shipbuilder" and "tutbuilder", which build the engine and the tutorial series, respectively. For now they are elaborate copy-pasting programs, but I hope they will have a future.
 
 I often have "dirty" versions of a project where I am free to develop in whatever way, then
-the primary version is meant to be more clean. I could just have different branches in my repo,
-but I want to do things this way because I also want a clean version that has a clean repo history.
+the primary version is meant to be more clean. I could just have different branches in my repo, but I want to do things this way because I also want a clean version that has a clean repo history.
 
 Most of this stuff is public and can be found on my Github at github.com/akami-channel
 Subscribe to my youtube channel too for updates on the game/engine.
