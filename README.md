@@ -36,3 +36,14 @@ checke builds the ship_2D project and checks checksums against the ship_2D and s
 alias pushe="pushd /mnt/c/repos/game/ship_2D/proj/src" #this is just for switching projects fast
 
 I'm putting everything in this proj directory because I have this other repo called shipbuilder that is supposed to build ship_2D. That might be useful, for example, if I want to have extensions that can be added or not at will. The idea is that everything in proj can be examined with a checksum and I can test what shipbuilder builds against the ship_2D checksum. That way I can make automated tests.
+
+ORGANIZATION OF THE ENGINE
+
+I'm thinking of this as 3 parts (metaphorically); think of a cargo ship sailing in the ocean. The three parts are the cargo ship, the ocean, and the sky.
+
+The sky is the input handler. Specifically it's a pointer to a function, and the function could be one of many different input handler functions. The metaphor here is the sky because it can completely change all of a sudden. Obviously, the programmer can make up various arbitrary input handler functions and switch between them as desired.
+
+The ocean is the stuff that never changes. All the boilerplate stuff the game creator doesn't really need to concern themselves with for the most part.
+
+The cargo ship is where the focus is most of the time. It can load and unload cargo containers (data structures that contain... data... duh).
+
